@@ -5,7 +5,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class CharityDonationIncentive(
-    val amount: Double,
-    val charityId: String,
-    val charityName: String,
-    val charityLogoUri: String) : Parcelable
+    val amount: Double?,
+    val charityId: String?,
+    val charityName: String?,
+    val charityLogoUri: String?) : Parcelable
